@@ -1,22 +1,121 @@
 {
 	"songs": [
-		["Satin Panties", "mom", [252, 150, 215]],
-		["High", "mom", [252, 150, 215]],
-		["Milf", "mom", [252, 150, 215]]
+		[
+			"Satin Panties",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Satin Panties In Game Version",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"High",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"High In Game Version",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"High Jp Version",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Milf",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Milf Beta Mix",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Mild In Game Version",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Milf Itch.io Build",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Milf Jp Version",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Milf Ost Version",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		]
 	],
-	
 	"weekCharacters": [
 		"mom",
 		"bf",
 		"gf"
 	],
 	"weekBackground": "limo",
-
-	"storyName": "MOMMY MUST MURDER",
-	"weekBefore": "week3",
-	"weekName": "Week 4",
+	"weekBefore": "tutorial",
+	"storyName": "Week 3",
+	"weekName": "Week4",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
 	"startUnlocked": true,
-
 	"hideStoryMode": false,
-	"hideFreeplay": false
+	"hideFreeplay": false,
+	"difficulties": "Normal"
 }
