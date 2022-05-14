@@ -2,6 +2,9 @@ stage
 spooky
 philly
 limo
+limoThank
+limoVitas
+limoJp
 mall
 mallEvil
 school
