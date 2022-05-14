@@ -547,12 +547,12 @@ class PlayState extends MusicBeatState
 					limoCorpseTwo = new BGSprite('gore/noooooo', -500, limoMetalPole.y, 0.4, 0.4, ['henchmen death'], true);
 					add(limoCorpseTwo);
 
-					grpLimoDancers = new FlxTypedGroup<BackgroundDancer>();
+					grpLimoDancers = new FlxTypedGroup<BackgroundDancerVitas>();
 					add(grpLimoDancers);
 
 					for (i in 0...5)
 					{
-						var dancer:BackgroundDancer = new BackgroundDancerVitas((370 * i) + 130, bgLimo.y - 400);
+						var dancer:BackgroundDancerVitas = new BackgroundDancerVitas((370 * i) + 130, bgLimo.y - 400);
 						dancer.scrollFactor.set(0.4, 0.4);
 						grpLimoDancers.add(dancer);
 					}
@@ -596,12 +596,12 @@ class PlayState extends MusicBeatState
 					limoCorpseTwo = new BGSprite('gore/noooooo', -500, limoMetalPole.y, 0.4, 0.4, ['henchmen death'], true);
 					add(limoCorpseTwo);
 
-					grpLimoDancers = new FlxTypedGroup<BackgroundDancer>();
+					grpLimoDancers = new FlxTypedGroup<BackgroundDancerThank>();
 					add(grpLimoDancers);
 
 					for (i in 0...5)
 					{
-						var dancer:BackgroundDancer = new BackgroundDancerThank((370 * i) + 130, bgLimo.y - 400);
+						var dancer:BackgroundDancerThank = new BackgroundDancerThank((370 * i) + 130, bgLimo.y - 400);
 						dancer.scrollFactor.set(0.4, 0.4);
 						grpLimoDancers.add(dancer);
 					}
