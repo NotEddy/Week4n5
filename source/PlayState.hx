@@ -579,7 +579,7 @@ class PlayState extends MusicBeatState
 				fastCar.active = true;
 				limoKillingState = 0;
 
-            case 'limoThank': //Week t
+            case 'limoThank': //Week 4
 				var skyBG:BGSprite = new BGSprite('limo/limoSunset', -120, -50, 0.1, 0.1);
 				add(skyBG);
 
@@ -587,7 +587,7 @@ class PlayState extends MusicBeatState
 					limoMetalPole = new BGSprite('gore/metalPole', -500, 220, 0.4, 0.4);
 					add(limoMetalPole);
 
-					bgLimo = new BGSprite('limo/bgLimo', -150, 480, 0.4, 0.4, ['background limo pink'], true);
+					bgLimo = new BGSprite('limo/bgLimoT', -150, 480, 0.4, 0.4, ['background limo pink'], true);
 					add(bgLimo);
 
 					limoCorpse = new BGSprite('gore/noooooo', -500, limoMetalPole.y - 130, 0.4, 0.4, ['Henchmen on rail'], true);
@@ -622,13 +622,13 @@ class PlayState extends MusicBeatState
 					CoolUtil.precacheSound('dancerdeath');
 				}
 
-				limo = new BGSprite('limo/limoDrive', -120, 550, 1, 1, ['Limo stage'], true);
+				limo = new BGSprite('limo/limoDriveT', -120, 550, 1, 1, ['Limo stage'], true);
 
 				fastCar = new BGSprite('limo/fastCarLol', -300, 160);
 				fastCar.active = true;
 				limoKillingState = 0;
 
-            case 'limoJp': //Week j
+            case 'limoJp': //Week 4
 				var skyBG:BGSprite = new BGSprite('limo/limoSunset', -120, -50, 0.1, 0.1);
 				add(skyBG);
 
@@ -671,7 +671,7 @@ class PlayState extends MusicBeatState
 					CoolUtil.precacheSound('dancerdeath');
 				}
 
-				limo = new BGSprite('limo/limoDrive', -120, 550, 1, 1, ['Limo stage'], true);
+				limo = new BGSprite('limo/limoDriveJ', -120, 550, 1, 1, ['Limo stage'], true);
 
 				fastCar = new BGSprite('limo/fastCarLol', -300, 160);
 				fastCar.active = true;
