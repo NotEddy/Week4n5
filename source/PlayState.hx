@@ -530,7 +530,7 @@ class PlayState extends MusicBeatState
 				fastCar.active = true;
 				limoKillingState = 0;
 
-            case 'limoVitas': //Week 4
+            case 'limoVitas': //Week V
 				var skyBG:BGSprite = new BGSprite('limo/limoSunset', -120, -50, 0.1, 0.1);
 				add(skyBG);
 
@@ -579,7 +579,7 @@ class PlayState extends MusicBeatState
 				fastCar.active = true;
 				limoKillingState = 0;
 
-            case 'limoThank': //Week 4
+            case 'limoThank': //Week T
 				var skyBG:BGSprite = new BGSprite('limo/limoSunset', -120, -50, 0.1, 0.1);
 				add(skyBG);
 
@@ -628,7 +628,7 @@ class PlayState extends MusicBeatState
 				fastCar.active = true;
 				limoKillingState = 0;
 
-            case 'limoJp': //Week 4
+            case 'limoJp': //Week J
 				var skyBG:BGSprite = new BGSprite('limo/limoSunset', -120, -50, 0.1, 0.1);
 				add(skyBG);
 
