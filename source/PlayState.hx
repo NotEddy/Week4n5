@@ -359,7 +359,7 @@ class PlayState extends MusicBeatState
 					curStage = 'spooky';
 				case 'pico' | 'blammed' | 'philly' | 'philly-nice':
 					curStage = 'philly';
-				case 'milf' | 'satin-panties' | 'high':
+				case 'milf' | 'satin-panties' | 'high' | 'satin-panties-in-game-version' | 'high-in-game-version' | 'high-jp-version' | 'milf-beta-mix' | 'milf-in-game-version' | 'milf-jp-version' | 'milf-itch.io-build' | 'milf-ost-version':
 					curStage = 'limo';
 				case 'cocoa' | 'eggnog':
 					curStage = 'mall';
