@@ -4507,7 +4507,6 @@
 		"speed": 2.75,
 		"gfVersion": "gf-car",
 		"player3": null,
-                "stage": "limo"
 		"events": []
 	}
 }
