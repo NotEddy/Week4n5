@@ -533,6 +533,8 @@ class PlayState extends MusicBeatState
 				limoKillingState = 0;
 
             case 'limoVitas': //vitas
+				GameOverSubstate.characterName = 'bf-vitas';
+				
 				var skyBG:BGSprite = new BGSprite('limo/limoSunset', -120, -50, 0.1, 0.1);
 				add(skyBG);
 
@@ -582,6 +584,8 @@ class PlayState extends MusicBeatState
 				limoKillingState = 0;
 
             case 'limoThank': 
+				GameOverSubstate.characterName = 'bf-thank';
+				
 				var skyBG:BGSprite = new BGSprite(curStage + '/limoSunset', -120, -50, 0.1, 0.1);
 				add(skyBG);
 
@@ -631,6 +635,8 @@ class PlayState extends MusicBeatState
 				limoKillingState = 0;
 
             case 'limoJp': 
+				GameOverSubstate.characterName = 'bf-ears';
+				
 				var skyBG:BGSprite = new BGSprite(curStage + '/limoSunset', -120, -50, 0.1, 0.1);
 				add(skyBG);
 

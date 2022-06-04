@@ -3,7 +3,7 @@
 		"song": "Satin-Panties",
 		"bpm": 110,
 		"needsVoices": true,
-		"player1": "bf-car",
+		"player1": "bf-diddy-car",
 		"player2": "mom-car",
 		"speed": 1.6,
 		"notes": [
@@ -2415,7 +2415,7 @@
 			}
 		],
 		"validScore": true,
-		"gfVersion": "gf",
+		"gfVersion": "gf-dixie",
 		"player3": null,
 		"events": [],
 		"stage": "limo"

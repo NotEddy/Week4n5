@@ -4508,5 +4508,6 @@
 		"gfVersion": "gf-car",
 		"player3": null,
 		"events": []
+                "stage": "limo"
 	}
 }
