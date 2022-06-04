@@ -402,6 +402,7 @@ class PlayState extends MusicBeatState
 		dadGroup = new FlxSpriteGroup(DAD_X, DAD_Y);
 		gfGroup = new FlxSpriteGroup(GF_X, GF_Y);
 
+        var daSong:String = Paths.formatToSongPath(curSong);
 		switch (curStage)
 		{
 			case 'stage': //Week 1
@@ -484,12 +485,14 @@ class PlayState extends MusicBeatState
 				add(street);
 
 			case 'limo': //Week 4
-				var daSong:String = Paths.formatToSongPath(curSong);
+				var daSong:String = Paths.formatToSongPath(curSong); //my lame ass though it was ganna work 
 				
 				switch (daSong)
 		        {
 			        case 'satin-panties': 
-				        GameOverSubstate.characterName = 'bf-diddy';
+				        GameOverSubstate.characterName = 'bf-vitas';
+					default:
+					    GameOverSubstate.characterName = 'bf-vitas'
 				}	
 				
 				var skyBG:BGSprite = new BGSprite('limo/limoSunset', -120, -50, 0.1, 0.1);
@@ -592,7 +595,7 @@ class PlayState extends MusicBeatState
 				limoKillingState = 0;
 
             case 'limoThank': 
-				GameOverSubstate.characterName = 'bf-thank';
+				GameOverSubstate.characterName = 'bf-t';
 				
 				var skyBG:BGSprite = new BGSprite(curStage + '/limoSunset', -120, -50, 0.1, 0.1);
 				add(skyBG);
@@ -643,7 +646,7 @@ class PlayState extends MusicBeatState
 				limoKillingState = 0;
 
             case 'limoJp': 
-				GameOverSubstate.characterName = 'bf-ears';
+				GameOverSubstate.characterName = 'bf-cat';
 				
 				var skyBG:BGSprite = new BGSprite(curStage + '/limoSunset', -120, -50, 0.1, 0.1);
 				add(skyBG);
