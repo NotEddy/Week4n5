@@ -484,6 +484,8 @@ class PlayState extends MusicBeatState
 				add(street);
 
 			case 'limo': //Week 4
+				var daSong:String = Paths.formatToSongPath(curSong);
+				
 				switch (daSong)
 		        {
 			        case 'satin-panties': 
