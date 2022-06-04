@@ -492,7 +492,7 @@ class PlayState extends MusicBeatState
 			        case 'satin-panties': 
 				        GameOverSubstate.characterName = 'bf-vitas';
 					default:
-					    GameOverSubstate.characterName = 'bf-vitas'
+					    GameOverSubstate.characterName = 'bf-vitas';
 				}	
 				
 				var skyBG:BGSprite = new BGSprite('limo/limoSunset', -120, -50, 0.1, 0.1);
