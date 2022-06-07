@@ -489,8 +489,8 @@ class PlayState extends MusicBeatState
 				
 				switch (daSong)
 		        {
-			        case 'satin-panties': 
-				        GameOverSubstate.characterName = 'bf-diddy';
+			        case 'high': 
+				        GameOverSubstate.characterName = 'bf-pixel-dead';
 					default:
 					    GameOverSubstate.characterName = 'bf';
 				}	
