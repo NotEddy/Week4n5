@@ -35,6 +35,8 @@ class StageData {
 					stage = 'spooky';
 				case 'pico' | 'blammed' | 'philly' | 'philly-nice':
 					stage = 'philly';
+				case 'high-in-game-version':
+					GameOverSubstate.characterName = 'bf-vitas';
 				case 'milf' | 'satin-panties' | 'high':
 					stage = 'limo';
 				case 'cocoa' | 'eggnog':

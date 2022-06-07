@@ -361,7 +361,6 @@ class PlayState extends MusicBeatState
 					curStage = 'philly';
 				case 'high-in-game-version':
 					curStage = 'limo';
-					GameOverSubstate.characterName = 'bf-vitas';
 				case 'milf' | 'satin-panties' | 'high' | 'milf-beta-mix' | 'milf-in-game-version' | 'milf-itch.io-build' | 'milf-ost-version' | 'satin-panties-in-game-version' | 'high-jp-version' | 'milf-jp-version':
 					curStage = 'limoThank';
 				case 'cocoa' | 'eggnog' | 'coca-short-version' | 'eggnog-short-version':
