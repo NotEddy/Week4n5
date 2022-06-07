@@ -8,7 +8,9 @@ class BackgroundDancer extends FlxSprite
 	public function new(x:Float, y:Float)
 	{
 		super(x, y);
-
+				
+        var songName:String = Paths.formatToSongPath(SONG.song);
+		curStage = PlayState.SONG.stage;
 		switch (curStage)
 		{
 			case 'limoVitas': 
