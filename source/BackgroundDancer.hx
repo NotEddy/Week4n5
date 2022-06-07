@@ -2,9 +2,14 @@ package;
 
 import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
+import Song.SwagSong;
 
 class BackgroundDancer extends FlxSprite
 {
+	
+	public static var curStage:String = '';
+	public static var SONG:SwagSong = null;
+	
 	public function new(x:Float, y:Float)
 	{
 		super(x, y);
