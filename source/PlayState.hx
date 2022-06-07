@@ -485,9 +485,9 @@ class PlayState extends MusicBeatState
 				add(street);
 
 			case 'limo': //Week 4
-				var daSong:String = Paths.formatToSongPath(curSong); //my lame ass though it was ganna work 
+				var daSong:String = Paths.formatToSongPath(curSong); //remove later
 				
-				switch (daSong)
+				switch (songName)
 		        {
 			        case 'high': 
 				        GameOverSubstate.characterName = 'bf-pixel-dead';
