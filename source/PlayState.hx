@@ -361,6 +361,7 @@ class PlayState extends MusicBeatState
 					curStage = 'philly';
 				case 'high-in-game-version':
 					curStage = 'limo';
+					GameOverSubstate.characterName = 'bf-vitas';
 				case 'milf' | 'satin-panties' | 'high' | 'milf-beta-mix' | 'milf-in-game-version' | 'milf-itch.io-build' | 'milf-ost-version' | 'satin-panties-in-game-version' | 'high-jp-version' | 'milf-jp-version':
 					curStage = 'limoThank';
 				case 'cocoa' | 'eggnog' | 'coca-short-version' | 'eggnog-short-version':
@@ -490,9 +491,9 @@ class PlayState extends MusicBeatState
 				switch (daSong)
 		        {
 			        case 'satin-panties': 
-				        GameOverSubstate.characterName = 'bf-vitas';
+				        GameOverSubstate.characterName = 'bf-diddy';
 					default:
-					    GameOverSubstate.characterName = 'bf-vitas';
+					    GameOverSubstate.characterName = 'bf';
 				}	
 				
 				var skyBG:BGSprite = new BGSprite('limo/limoSunset', -120, -50, 0.1, 0.1);
@@ -595,7 +596,7 @@ class PlayState extends MusicBeatState
 				limoKillingState = 0;
 
             case 'limoThank': 
-				GameOverSubstate.characterName = 'bf-t';
+				GameOverSubstate.characterName = 'bf';
 				
 				var skyBG:BGSprite = new BGSprite(curStage + '/limoSunset', -120, -50, 0.1, 0.1);
 				add(skyBG);

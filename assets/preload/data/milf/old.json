@@ -4496,26 +4496,6 @@
 				"sectionNotes": [],
 				"typeOfSection": 0,
 				"altAnim": false
-			},
-			{
-				"lengthInSteps": 16,
-				"bpm": 180,
-				"changeBPM": false,
-				"mustHitSection": true,
-				"gfSection": false,
-				"sectionNotes": [],
-				"typeOfSection": 0,
-				"altAnim": false
-			},
-			{
-				"lengthInSteps": 16,
-				"bpm": 180,
-				"changeBPM": false,
-				"mustHitSection": true,
-				"gfSection": false,
-				"sectionNotes": [],
-				"typeOfSection": 0,
-				"altAnim": false
 			}
 		],
 		"player2": "mom",
@@ -4524,10 +4504,10 @@
 		"sections": 0,
 		"needsVoices": true,
 		"bpm": 180,
-		"speed": 2.85,
+		"speed": 2.75,
 		"gfVersion": "gf-car",
 		"player3": null,
-		"events": [],
-		"stage": "limo"
+		"events": []
+                "stage": "limo"
 	}
 }
