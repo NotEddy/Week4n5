@@ -489,10 +489,8 @@ class PlayState extends MusicBeatState
 				
 				switch (songName)
 		        {
-			        case 'high': 
+			        case 'song name': 
 				        GameOverSubstate.characterName = 'bf-pixel-dead';
-					default:
-					    GameOverSubstate.characterName = 'bf';
 				}	
 				
 				var skyBG:BGSprite = new BGSprite('limo/limoSunset', -120, -50, 0.1, 0.1);
