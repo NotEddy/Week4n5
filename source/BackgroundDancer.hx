@@ -9,9 +9,8 @@ class BackgroundDancer extends FlxSprite
 	
 	public static var curStage:String = '';
 	public static var SONG:SwagSong = null;
-
-}
-    curStage = PlayState.SONG.stage;		
+    curStage = PlayState.SONG.stage;
+ 		
 	public function new(x:Float, y:Float)
 	{
 		super(x, y);
