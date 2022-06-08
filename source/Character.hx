@@ -95,10 +95,11 @@ class Character extends FlxSprite
 
 			default:
 				var characterPath:String = 'characters/' + curCharacter + '.json';
-				switch (curCharacter) //for custom character death
-		        {
-			        if(!ClientPrefs.lowQuality) {
-					    case 'bf-vitas': 
+				
+				if(!ClientPrefs.lowQuality) {
+					switch (curCharacter) //for custom character death
+		            {
+			            case 'bf-vitas': 
 				            GameOverSubstate.characterName = 'bf-vitas';
 					    case 'bf-thank': 
 				            GameOverSubstate.characterName = 'bf';
@@ -108,11 +109,15 @@ class Character extends FlxSprite
 				            GameOverSubstate.characterName = 'bf-cat';
 					    default:
 					        GameOverSubstate.characterName = 'bf';
-				    } else {
-					    default:
-					        GameOverSubstate.characterName = 'bf';
+				    }  	
+				} else { 
+					switch (curCharacter) //for custom character death
+		            {
+			            default 'bf': 
+				            GameOverSubstate.characterName = 'bf';
 				    }
 				}	
+				
 				#if MODS_ALLOWED
 				var path:String = Paths.modFolders(characterPath);
 				if (!FileSystem.exists(path)) {
