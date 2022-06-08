@@ -3,9 +3,6 @@ package;
 import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
 import Song.SwagSong;
-
-	public static var curStage:String = '';
-	public static var SONG:SwagSong = null;
     
 class BackgroundDancer extends FlxSprite
 {	
