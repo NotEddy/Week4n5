@@ -111,11 +111,7 @@ class Character extends FlxSprite
 					        GameOverSubstate.characterName = 'bf';
 				    }  	
 				} else { 
-					switch (curCharacter) //for custom character death
-		            {
-			            default 'bf': 
-				            GameOverSubstate.characterName = 'bf';
-				    }
+					GameOverSubstate.characterName = 'bf';
 				}	
 				
 				#if MODS_ALLOWED
