@@ -41,6 +41,13 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 			'bool', //Variable type
 			false); //Default value
 		addOption(option);
+		
+		var option:Option = new Option('Regular Death', //Name
+			'If checked, disables other Bf character's death and replaces with the regular death.,\nwont lag and crash on death.', //Description
+			'regularDeath', //Save data variable name
+			'bool', //Variable type
+			false); //Default value
+		addOption(option);
 
 		var option:Option = new Option('Anti-Aliasing',
 			'If unchecked, disables anti-aliasing, increases performance\nat the cost of sharper visuals.',
