@@ -2,6 +2,7 @@ package;
 
 import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
+import Song.SwagSong;
 
 class BackgroundDancer extends FlxSprite
 {
@@ -9,9 +10,8 @@ class BackgroundDancer extends FlxSprite
 	public static var curStage:String = '';
 	public static var SONG:SwagSong = null;
 
-    var songName:String = Paths.formatToSongPath(SONG.song);
     curStage = PlayState.SONG.stage;	
-	
+}	
 	public function new(x:Float, y:Float)
 	{
 		super(x, y);
