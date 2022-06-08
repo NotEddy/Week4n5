@@ -96,7 +96,7 @@ class Character extends FlxSprite
 			default:
 				var characterPath:String = 'characters/' + curCharacter + '.json';
 				
-				if(!ClientPrefs.lowQuality) {
+				if(!ClientPrefs.regularDeath) {
 					switch (curCharacter) //for custom character death
 		            {
 			            case 'bf-vitas': 
