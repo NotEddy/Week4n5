@@ -3505,7 +3505,7 @@ class PlayState extends MusicBeatState
 		if (PlayState.customCombo == ost)
 		{
 			pixelShitPart1 = '';
-			pixelShitPart2 = '-ost';
+			pixelShitPart2 = ' (2)';
 		}
 
 		rating.loadGraphic(Paths.image(pixelShitPart1 + daRating + pixelShitPart2));
