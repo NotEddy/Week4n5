@@ -15,6 +15,9 @@ class ClientPrefs {
 	public static var noteSplashes:Bool = true;
 	public static var lowQuality:Bool = false;
     public static var regularDeath:Bool = false;
+    public static var lowQualityDancers:Bool = false;
+    public static var staticBackdancers:Bool = false;
+    public static var lowQualityChar:Bool = false;
 	public static var framerate:Int = 60;
 	public static var cursing:Bool = true;
 	public static var violence:Bool = true;
@@ -89,6 +92,9 @@ class ClientPrefs {
 		FlxG.save.data.globalAntialiasing = globalAntialiasing;
 		FlxG.save.data.noteSplashes = noteSplashes;
 		FlxG.save.data.lowQuality = lowQuality;
+		FlxG.save.data.lowQualityChar = lowQualityChar;
+		FlxG.save.data.lowQualityDancers = lowQualityDancers;
+		FlxG.save.data.staticBackdancers = staticBackdancers;
 		FlxG.save.data.regularDeath = regularDeath;
 		FlxG.save.data.framerate = framerate;
 		//FlxG.save.data.cursing = cursing;
@@ -149,8 +155,17 @@ class ClientPrefs {
 		if(FlxG.save.data.lowQuality != null) {
 			lowQuality = FlxG.save.data.lowQuality;
 		}
+		if(FlxG.save.data.lowQualityDancers != null) {
+			lowQualityDancers = FlxG.save.data.lowQualityDancers;
+		}
+		if(FlxG.save.data.lowQualityChar != null) {
+			lowQualityChar = FlxG.save.data.lowQualityChar;
+		}
 		if(FlxG.save.data.regularDeath != null) {
 			regularDeath = FlxG.save.data.regularDeath;
+		}
+		if(FlxG.save.data.staticBackdancers != null) {
+			staticBackdancers = FlxG.save.data.staticBackdancers;
 		}
 		if(FlxG.save.data.framerate != null) {
 			framerate = FlxG.save.data.framerate;
