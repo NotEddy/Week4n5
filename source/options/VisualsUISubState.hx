@@ -48,6 +48,14 @@ class VisualsUISubState extends BaseOptionsMenu
 			false);
 		addOption(option);
 		
+		var option:Option = new Option('Rating and Combo skins:',
+			"Which rating and combo skins should appear. If on auto, Combo skins can change automatically like in MILF OST Version.",
+			'comboType',
+			'string',
+			'Auto',
+			['Auto', 'Normal', 'Pixel']);
+		addOption(option);
+		
 		var option:Option = new Option('Time Bar:',
 			"What should the Time Bar display?",
 			'timeBarType',
