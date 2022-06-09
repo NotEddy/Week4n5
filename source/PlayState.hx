@@ -186,6 +186,8 @@ class PlayState extends MusicBeatState
 	public var camControls:FlxCamera;
 	public var camOther:FlxCamera;
 	public var cameraSpeed:Float = 1;
+	
+	var customCombo:String = null;
 
 	var dialogue:Array<String> = ['blah blah blah', 'coolswag'];
 	var dialogueJson:DialogueFile = null;
@@ -485,12 +487,12 @@ class PlayState extends MusicBeatState
 				add(street);
 
 			case 'limo': //Week 4
-				var daSong:String = Paths.formatToSongPath(curSong); //remove later
+				var daSong:String = Paths.formatToSongPath(curSong); 
 				
 				switch (songName)
 		        {
-			        case 'song name': 
-				        GameOverSubstate.characterName = 'bf-pixel-dead';
+			        case 'milf-ost-version': 
+				        customCombo = 'ost;
 				}	
 				
 				var skyBG:BGSprite = new BGSprite('limo/limoSunset', -120, -50, 0.1, 0.1);
@@ -3499,6 +3501,12 @@ class PlayState extends MusicBeatState
 		{
 			pixelShitPart1 = 'pixelUI/';
 			pixelShitPart2 = '-pixel';
+		}
+		
+		if (PlayState.customCombo == ost)
+		{
+			pixelShitPart1 = '';
+			pixelShitPart2 = '-ost';
 		}
 
 		rating.loadGraphic(Paths.image(pixelShitPart1 + daRating + pixelShitPart2));
