@@ -3503,7 +3503,7 @@ class PlayState extends MusicBeatState
 			pixelShitPart2 = '-pixel';
 		}
 		
-		if (PlayState.customCombo == 'ost')
+		if (customCombo == 'ost')
 		{
 			pixelShitPart1 = '';
 			pixelShitPart2 = ' (2)';
