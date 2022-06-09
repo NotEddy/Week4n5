@@ -403,7 +403,6 @@ class PlayState extends MusicBeatState
 		gfGroup = new FlxSpriteGroup(GF_X, GF_Y);
 
         var daSong:String = Paths.formatToSongPath(curSong);
-	    var customCombo:String = null;
 		switch (curStage)
 		{
 			case 'stage': //Week 1
