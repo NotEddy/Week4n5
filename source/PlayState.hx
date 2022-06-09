@@ -3503,7 +3503,19 @@ class PlayState extends MusicBeatState
 			pixelShitPart2 = '-pixel';
 		}
 		
-		if (customCombo == 'ost')
+		if (ClientPrefs.comboType == 'Pixel')
+		{
+			pixelShitPart1 = 'pixelUI/';
+			pixelShitPart2 = '-pixel';
+		}
+		
+		if (ClientPrefs.comboType == 'Normal')
+		{
+			pixelShitPart1 = '';
+			pixelShitPart2 = '';
+		}
+		
+		if (ClientPrefs.comboType == 'Auto' && customCombo == 'ost')
 		{
 			pixelShitPart1 = '';
 			pixelShitPart2 = ' (2)';
