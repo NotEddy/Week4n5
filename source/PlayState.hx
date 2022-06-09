@@ -186,6 +186,8 @@ class PlayState extends MusicBeatState
 	public var camControls:FlxCamera;
 	public var camOther:FlxCamera;
 	public var cameraSpeed:Float = 1;
+	
+	var customCombo:String = '';
 
 	var dialogue:Array<String> = ['blah blah blah', 'coolswag'];
 	var dialogueJson:DialogueFile = null;
@@ -490,7 +492,7 @@ class PlayState extends MusicBeatState
 				switch (songName)
 		        {
 			        case 'milf-ost-version': 
-				        customCombo = 'ost;
+				        customCombo = 'ost';
 				}	
 				
 				var skyBG:BGSprite = new BGSprite('limo/limoSunset', -120, -50, 0.1, 0.1);
