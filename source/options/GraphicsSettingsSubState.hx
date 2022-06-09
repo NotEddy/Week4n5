@@ -43,14 +43,14 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 		addOption(option);
 		
 		var option:Option = new Option('Regular Death', //Name
-			'If checked, disables other Bf characters death and replaces with the regular death,\nwont lag and crash on death.', //Description
+			'If checked, disables other Bf characters\' death and replaces with the regular death,\nwon\'t lag and crash on death.', //Description
 			'regularDeath', //Save data variable name
 			'bool', //Variable type
 			false); //Default value
 		addOption(option);
 		
 		var option:Option = new Option('Frozen Background Dancers', //Name
-			'If checked, the background dancers won't play their animation,\nmight decreas loading times and improves performance.', //Description
+			'If checked, the background dancers won\'t play their animation,\nmight decreas loading times and improves performance.', //Description
 			'staticBackdancers', //Save data variable name
 			'bool', //Variable type
 			false); //Default value
