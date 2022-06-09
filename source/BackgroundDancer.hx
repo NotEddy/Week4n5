@@ -9,7 +9,7 @@ class BackgroundDancer extends FlxSprite
 	public function new(x:Float, y:Float)
 	{
 		
-		var stat:string = '';
+		var stat:String = '';
 		
 		if(!ClientPrefs.lowQuality) {
 			stat = '';
