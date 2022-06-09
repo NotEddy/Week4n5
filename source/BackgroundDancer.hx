@@ -9,10 +9,10 @@ class BackgroundDancer extends FlxSprite
 	public function new(x:Float, y:Float)
 	{
 		
-		var static:String = ;
+		var static:String = N;
 		
 		if(!ClientPrefs.lowQuality) {
-			static = '';
+			static = N;
 		} else {
 			static = Static;
 		}
