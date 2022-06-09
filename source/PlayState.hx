@@ -186,8 +186,6 @@ class PlayState extends MusicBeatState
 	public var camControls:FlxCamera;
 	public var camOther:FlxCamera;
 	public var cameraSpeed:Float = 1;
-	
-	var customCombo:String = null;
 
 	var dialogue:Array<String> = ['blah blah blah', 'coolswag'];
 	var dialogueJson:DialogueFile = null;
@@ -405,6 +403,7 @@ class PlayState extends MusicBeatState
 		gfGroup = new FlxSpriteGroup(GF_X, GF_Y);
 
         var daSong:String = Paths.formatToSongPath(curSong);
+	    var customCombo:String = null;
 		switch (curStage)
 		{
 			case 'stage': //Week 1
