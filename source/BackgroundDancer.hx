@@ -11,7 +11,7 @@ class BackgroundDancer extends FlxSprite
 		
 		var stat:String = '';
 		
-		if(!ClientPrefs.lowQuality) {
+		if(!ClientPrefs.staticBackdancers) {
 			stat = '';
 		} else {
 			stat = 'Static';
