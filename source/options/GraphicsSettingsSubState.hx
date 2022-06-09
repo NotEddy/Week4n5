@@ -63,6 +63,7 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 			'bool', //Variable type
 			true); //Default value
 		addOption(option);
+        #end
 
         var option:Option = new Option('Low Quality Charcters', //Name
 			'If checked, loads low quality versions of some characters,\ndecreases loading times and improves performance.', //Description
